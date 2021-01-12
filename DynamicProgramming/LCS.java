@@ -2,7 +2,7 @@ package DynamicProgramming;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-
+//부분공통수열
 public class LCS {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
