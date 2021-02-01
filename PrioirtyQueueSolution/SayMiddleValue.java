@@ -14,8 +14,6 @@ public class SayMiddleValue {// 백준 가운데를 말해요. 1655번
 		StringBuilder sb = new StringBuilder();
 		for (int i = 0; i < n; i++) {
 			int inputNum = Integer.parseInt(br.readLine());// 받아온 값
-			
-
 			//두개의 힙에 균형을 맞춰주기 위한 행동. 
 			//그런데 사이즈가 같으면 max힙에 넣는 이유는, 그렇게 되면 max힙의 peek가 중간값이 될 수 있음(스왑 가정을 거쳐야 겟찌만)
 			if (maxPriorityQue.size() == minPriorityQue.size()) {
