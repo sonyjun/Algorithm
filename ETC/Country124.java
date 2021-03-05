@@ -1,5 +1,5 @@
 package ETC;
-
+//test code
 public class Country124 {
 	public static void main(String args[]) {
 		Country124Solution c = new Country124Solution();
